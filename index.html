@@ -32,6 +32,8 @@
 </head>
 
 <body class="fontFamily">
+
+    <!-- Navigation Bar -->
 	<div id="home" class="introImage">
 		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
 			<div class="container">
@@ -59,15 +61,20 @@
 			</div>
 		</nav>
 	
+	    <!-- Home Page -->
 		<div id="title" class="container text-center hearderset">
-			<h1 id="h_title1" class="white_text_color w3-animate-left h_paddingtop"> Rutuja Sandhan</h1>
-			<h2 id="h_title2" class="white_text_color w3-animate-right h_paddingleft">Software Developer</h2>
+			<div id="h_title1"><h1 id="home_title1" class="white_text_color h_paddingtop hometitle"> </h1></div>
+			<div id="h_title2"><h2 id="home_title2" class="white_text_color h_paddingleft hometitle"></h2></div>
+			<div id="h_title1_updated" class="invisible"><h1 class="white_text_color divPadding hometitle"> Rutuja Sandhan</h1></div>
+			<div id="h_title2_updated" class="invisible"><h2 class="white_text_color w3-animate-right hometitle">Software Developer</h2></div>
 		</div>
 	</div>
 	
+	<!-- About Me  -->
 	<section id="aboutMe" class="container AboutMe fontSize">
 		<h2 class="text-center paddingTop">About Me </h2>
 		<div class="row">
+			<!-- Introduction -->
 			<div class="col-lg-8 col-md-8 col-sm-8 d-block m-auto">
 				<h1 class="paddingTop text_fontcolor">Rutuja Sandhan</h1><br>
 				<h3 class="">Software Developer</h3><br>
@@ -76,12 +83,14 @@
 		           I have experience on working with SQL Server database, Java, JSP, Javascript, HTML5 and CSS. </p>
 			</div>
 		
+			<!-- Profile Picture -->
 			<div class="col-lg-4 col-md-4 col-sm-4 d-block m-auto">
-	            <img style="width:200px; height:200px; margin:20px" class="rounded-circle z-depth-2 pull-center" alt="100x100" src="images/rutuja.jpg" data-holder-rendered="true">
+	            <img style="width:200px; height:200px; margin:20px" class="rounded-circle z-depth-2 pull-center" alt="100x100" src="images/profile_pic.jpg" data-holder-rendered="true">
 			</div>
 			<hr>
 		</div>
 		
+		<!-- Resume -->
 		<div class="main-wrapper">
 			<div class="container paddingTop">
 				<article class="resume-wrapper theme-bg-light col-lg-12 col-md-12 col-sm-12 col-12 shadow-lg">
@@ -128,7 +137,7 @@
 										</ul>
 									</div>
 								</div>
-						<a class="paddingTopResume " href="documents/Rutuja_CV.pdf">Download Resume</a>
+						<a class="paddingTopResume " href="documents/Rutuja_CV.pdf">Download Resume</a> <!-- Resume download link in PDf format -->
 					</div><!--resume-main-->
 					<hr>
 					<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
@@ -151,74 +160,80 @@
 									<li class="mb-2">Team player<li>
 									<li>Good time management</li>
 								</ul>
-							</div><!--item-->
-							</section><!--skills-section-->
+							</div>
+							</section>
 							</aside><!--resume-aside-->
-						</div><!--row-->
+						</div>
 					</div><!--resume-body-->
 					<hr>
 				</article>
-			</div><!--container-->
+			</div>
 		</div><!--main-wrapper-->
 	</section>
 	
+	<!-- Projects -->
 	<div class="paddingBottom paddingTop"></div>
 	<section id="myProjects" class="container MyProject paddingTopTitle paddingBottom">
 		<h2 class="text-center"> My Projects</h2>
 		<h5 class="text-center">(Projects from April 2019 onwards)</h5>
 		<ul class="paddingTop">
-		  <li>Data is retrived from SQL server processed according to the requirement and visualized using graphs. </li>
-		  <li>Site can accessed only by the clients using solution using user id and password.
+		  <li>Data is retrived from SQL server, processed according to the requirement and visualized using graphs. </li>
+		  <li>Site can accessed only by the clients using solution with user id and password.
 		</ul>
 		
-		<div class="row rowsetting imagestyle">
+		<!-- Project Videos -->
+		<div class="row imagestyle rowsetting">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-				<video width="100%" height="250" controls> <source src="project_videos/ess_module.mp4" type="video/mp4"> Your browser does not support video format.</video>		
-			    <div class="card-body">
-			    	<h4 class="card-title">Power Plant Monitoring</h4>
-			      	<h5 class="card-title">Functions</h5>
- 
-				    <ul class="text-left">
+				<video width="100%" height="100%" controls> <source src="project_videos/plant_monitoring.mp4" type="video/mp4"> Your browser does not support video format.</video>		
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<video width="100%" height="100%" controls> <source src="project_videos/ess_module.mp4" type="video/mp4"> Your browser does not support video format.</video>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<video width="100%" height="100%" controls> <source src="project_videos/trading_system.mp4" type="video/mp4"> Your browser does not support video format.</video>
+		    </div>
+		    
+		   <!-- Project Video Description -->
+		   <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block paddingTop">
+			   <div>
+			    	<h4>Power Plant Monitoring</h4>
+			      	<ul>
 				    	<li>This web page is developed using high -chart and various HTML5 controls.</li>
 				        <li> Slide show of power plant images.</li> 
 				        <li>Table with filter and reset options. </li>
 				        <li>Client can download data in excel file.</li>
 				    </ul> 
      			</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-				<video width="100%" height="250" controls> <source src="project_videos/ess_module.mp4" type="video/mp4"> Your browser does not support video format.</video>
-			 	<div class="card-body">
-       				<h4 class="card-title">Optimal Estimation using file data.</h4>
-      				<h5 class="card-title">Functions</h5>
- 
-      				<ul class="text-left">
-      					<li>Input Validations</li>
-      					<li> Can browse excel file from local system. (Supports both .xls, .xlsx) </li> 
-      					<li>Graphs showing analysis results </li>
+     		</div>
+     		
+     		<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block paddingTop">
+     			<div>
+       				<h4>Optimal Estimation of Battery</h4>
+      				<ul>
+      					<li>Input Validations.</li>
+      					<li> Can browse excel file from local system. (Supports both .xls and .xlsx) </li> 
+      					<li>Graphs showing analysis results. </li>
      			    </ul> 
      		    </div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-				<video width="100%" height="250" controls> <source src="project_videos/trading_system.mp4" type="video/mp4"> Your browser does not support video format.</video>
-				<div class="card-body">
-          			<h4 class="card-title">Solar Trading System</h4>
-      				<h5 class="card-title">Functions</h5>
- 	
-    				<ul class="text-left">
-      					<li> Sell and purchase transactions as requested by users </li>
-       					<li>Transaction history </li>  
-       					<li>Input Validations</li>
-     					<li>Web page is under development </li>
+     		 </div>   
+   		 	<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block paddingTop">
+   		 		<div>
+          			<h4>Solar Trading System</h4>
+      				<ul>
+      					<li> Sell and purchase transactions as requested by users. </li>
+       					<li>Transaction history. </li>  
+       					<li>Input Validations.</li>
+     					<li>Web page is under development. </li>
      			    </ul> 
 				</div>
-		   </div>
-		</div>
+   		 	</div> 
+   		</div>
      		
      	<div class="container">
-  			<h3>Data Visualization</h3>
-		 
-			<div id="bs4-slide-carousel" class="carousel slide" data-ride="carousel">
+  			<h3>Data Visualization (GUI) </h3>
+		    
+		    <!-- Image Slider -->
+			<div id="bs4-slide-carousel" class="carousel slide paddingTopTitle" data-ride="carousel">
 		  		<ol class="carousel-indicators">
 		    		<li data-target="#bs4-slide-carousel" data-slide-to="0" class="active"></li>
 		    		<li data-target="#bs4-slide-carousel" data-slide-to="1"></li>
@@ -267,25 +282,31 @@
 
 	<div class="divPadding"></div>
 
+	<!-- Contacts -->
 	<section id="myContact" class="container text-center paddingTop mycontact ContactMe">
 		<h2 class="contactPaddingBottom">Contact Details</h2>
 		<div class="row">
+		
+			<!-- Mobile Number -->
 			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
 				<div class="icon_style d-block m-auto"><i id="mobile_icon" class="fa fa-mobile fa-3x iconMargin"></i></div>
 				<h3 class="paddingTop">+82 10-4283-3280</h3>
 			</div>
 				
+			<!-- Email -->	
 			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
 				<div class="icon_style d-block m-auto"><i class="fa fa-envelope fa-3x iconMargin"></i></div>
 				<h3 class= "paddingTop"> sandhanrutuja@gmail.com</h3>
 			</div>
 			
+			<!--Address-->
 			<div class= "col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
 				<div class="icon_style d-block m-auto"><i class="fa fa-map-marker fa-3x iconMargin"></i></div>
 				<h3 class="paddingTop">Suwon, South korea</h3>
 			</div>
      	</div>
-	
+     	
+		<!-- Contact Form -->
 		<div class="container rowsetting">
 			<div class ="row paddingTopTitle">
 				<div class="col-md-6 contact-form">
@@ -318,24 +339,57 @@
 					</form>	
 				</div>
 				
+				<!-- Google Map -->
 				<div class="col-lg-6 col-md-6 col-sm-6 mapMarginRight">
-				  <iframe class="mapMarginRight" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.0846514879936!2d127.05607631524822!3d37.24569897985914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b44938e8840db%3A0x565c89bc0593f1f!2sMangpo+Station+Exit+1!5e0!3m2!1sen!2skr!4v1564665566687!5m2!1sen!2skr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+				  <iframe class="mapMarginRight" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.0846514879936!2d127.05607631524822!3d37.24569897985914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b44938e8840db%3A0x565c89bc0593f1f!2sMangpo+Station+Exit+1!5e0!3m2!1sen!2skr!4v1564665566687!5m2!1sen!2skr" width="600" height="450" style="border:0" allowfullscreen></iframe> 
 				</div>
 			</div>
 		</div>
 	</section>
 	
+	<!-- Image Slider Time Interval -->
 	<script>
 		$('#bs4-slide-carousel').carousel({
   			interval: 2000
 		})
 	</script>
 	
+	<!-- Home page header effect -->
 	<script>
-		function toggle()
-		{
-			alert("send");
+		$("#h_title1, #h_title2").removeClass("invisible");
+		var i = 0 , j = 0;
+		var header1 = 'Rutuja Sandhan';
+		var header2 = 'Software Developer';
+		var speed = 50;
+		typeWriter1();
+		
+		function typeWriter1() {
+			if (i < header1.length) {
+			    document.getElementById('home_title1').innerHTML += header1.charAt(i);
+			    i++;
+			    setTimeout(typeWriter1, speed);
+			  }
+			else{
+				typeWriter2();
+			}
 		}
+			
+		function typeWriter2() {
+			if (j < header2.length) {
+			    document.getElementById('home_title2').innerHTML += header2.charAt(j);
+			    j++;
+			    setTimeout(typeWriter2, speed);
+			  }
+		}
+	
+		setTimeout(function(){ 
+			document.getElementById('home_title2').innerHTML = '';
+			document.getElementById('home_title1').innerHTML = '';
+	
+			$("#h_title1_updated,#h_title2_updated").removeClass("invisible");
+	   		$("#h_title1_updated").addClass("w3-animate-left");
+	   		$("#h_title2_updated").addClass("w3-animate-right");
+	   	 }, 3000);
 	</script>
 	
 </body>

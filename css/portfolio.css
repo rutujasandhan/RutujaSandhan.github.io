@@ -1,162 +1,29 @@
+
+/* Styles */
+
+/*------ Home Page-----*/
 .introImage{
 	background-image: url('../images/home_background.jpg');
- background-attachment: fixed ;
+    background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 	width: 100%;
 	height:700px;
-
-	 
-}
-
-.hide {
-	font-size: 0px;
-    
 }
 
 .white_text_color{
-			color: white;
-}
-.headerset{
-	padding-top:250px;
-	box-sizing: border-box;
-	
-}
-
-#title h2
-{
-		
-		 transition: all 3s;
-  transition-timing: ease-in-out;
-  
-  
- 
-}
-.h_paddingtop{
-	padding-top:0px !important;
-	padding-left: 75%;
-	 transform: rotate(22deg);
-}
-
-.h_paddingleft{
-
-	padding-left: 75%;
-	  transform: rotate(22deg);
-}
-
-
-.headerset h2{
-	font-size: 42px;
-	margin-top:400px;
-	font-weight: bold;
-  
-    padding-left: 70%;
-}
-
-.headerset h1{
-	
-	font-size: 72px;
-	font-weight: bold;
 	color: white;
-	    transform: rotate(-40deg);
-}
-
-.mycontact{
-
-	height:700px;
-}
-
-.contactPaddingBottom
-{
-		padding-bottom:60px;
-}
-.rowsetting{
-	padding:50px;
-}
-
-.mycontact h2{
-	font-size:30px;
-
-	/*font-weight:bold;
-	margin:100px;*/
-}
-
-.mycontact h3{
-	font-size:20px;
-
-	/*font-weight:bold;
-	margin:100px;*/
-}
-
-.myContactMargin{
-	margin-bottom:50px;
-}
-.icon_style{
-	border-radius: 50% !important;
-	background:#ffcc00;
-	height:90px;
-	width:90px;
-	color:white;
-	
-}
-
-.iconMargin{
-	
-	margin-top:20px;
 }
 
 
-.rowsetting h3{
-padding:10px;
-}
-
-/*Contact form */
-
-.mapstyle{
-	width:100%; 
-	height:370px;
-	margin-top:20px;
-
-}
-
-
-.contact-form{
-	background:rgba(0,0,0,.6);
-	color:white;
-	background-size:cover;
-
-}
-
+/*-----About Me-----*/
 .AboutMe{
-	background:#e8f1fb;/*rgba(0,0,0.5,.5)*/;
-	/*color:white;*/
+	background:#e8f1fb;
 	background-size:cover;
 	width:100%;
-		height:100%;
-	    z-index: 3;
-
-}
-
-.MyProject{
-	background:#e8f1fb;/*rgba(0,0,0.5,.5)*/;
-	/*color:white;*/
-	background-size:cover;
-	width:100%;
-		height:100%;
-	    z-index: 3;
-
-}
-
-.ContactMe{
-	background:#e8f1fb;/*rgba(0,0,0.5,.5)*/;
-	/*color:white;*/
-	background-size:cover;
-	width:100%;
-		height:100%;
-	    z-index: 3;
-
+	height:100%;
+	z-index: 3;
 }
 
 .article{
@@ -164,6 +31,113 @@ padding:10px;
 	color:white;
 	background-size:cover;
 	
+}
+
+.headerset{
+	padding-top:250px;
+	box-sizing: border-box;
+}
+
+#title h2{
+	transition: all 3s;
+  	transition-timing: ease-in-out;
+}
+
+.h_paddingtop{
+	padding-top:0px !important;
+	padding-left: 75%;
+	transform: rotate(22deg);
+}
+
+.h_paddingleft{
+	padding-left: 75%;
+	transform: rotate(22deg);
+}
+
+.headerset h2{
+	font-size: 42px;
+	margin-top:400px;
+	font-weight: bold;
+    padding-left: 70%;
+}
+
+.headerset h1{
+	font-size: 72px;
+	font-weight: bold;
+	color: white;
+	transform: rotate(-40deg);
+}
+
+/*----- Contacts-----*/ 
+.mycontact{
+	height:700px;
+}
+
+.contactPaddingBottom{
+	padding-bottom:60px;
+}
+
+.rowsetting{
+	padding:50px;
+}
+
+.mycontact h2{
+	font-size:30px;
+}
+ 
+.mycontact h3{
+	font-size:20px;
+}
+
+.myContactMargin{
+	margin-bottom:50px;
+}
+
+.icon_style{
+	border-radius: 50% !important;
+	background:#ffcc00;
+	height:90px;
+	width:90px;
+	color:white;
+}
+
+/*----Project-----*/
+
+.iconMargin{
+	margin-top:20px;
+}
+
+.rowsetting h3{
+	padding:10px;
+}
+
+.MyProject{
+	background:#e8f1fb;
+	background-size:cover;
+	width:100%;
+	height:100%;
+    z-index: 3;
+}
+
+/*Contact form */
+.mapstyle{
+	width:100%; 
+	height:370px;
+	margin-top:20px;
+}
+
+.contact-form{
+	background:rgba(0,0,0,.6);
+	color:white;
+	background-size:cover;
+}
+
+.ContactMe{
+	background:#e8f1fb;
+	background-size:cover;
+	width:100%;
+	height:100%;
+    z-index: 3;
 }
 
 .modal-dialog {
@@ -180,25 +154,20 @@ padding:10px;
 	color: #CC6600;
 }
 
-/* Bouncing */
-
 /* Projects */
-
-.imagestyle img
-{
+.imagestyle img{
 	width:300px; 
 	height:300px;
 }
+
 .fontFamily{
 	 font-family: "Callibri"
 }
 
 .data_images img{
-	
 	width:100%; 
 	height:450px;
 	margin:0px;
-	
 }
 
 .list-group-item.active {
@@ -222,8 +191,8 @@ padding:10px;
 
 .paddingTopResume{
 	padding-top: 0px;
-	padding-left : 49%;
-  color: #5534eb;
+	padding-left : 44%;
+    color: #5534eb;
 }
 
 .paddingTopTitle{
@@ -233,9 +202,36 @@ padding:10px;
 .paddingBottom{
 	padding-bottom: 15px;
 }
+
 .fontSize{
 	font-size: 16px; 
 }
+
 .mapMarginRight{
 	width:95%;
 }
+
+/*------ Media Query ------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hometitle{font-size: 20px;}
+  	.hometitle2{font-size: 0px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 	.hometitle{font-size: 30px;}
+  	.hometitle2{font-size: 0px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .hometitle{font-size: 25px;}
+   .hometitle2{font-size: 25px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   .hometitle{font-size: 30px;}
+   .hometitle2{font-size: 30px;}
+} 
