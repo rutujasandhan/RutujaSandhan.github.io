@@ -25,11 +25,11 @@
 }
 
 .LabelPaddingLeft{
-	padding-left:91%
+	padding-left:90%
 }
 
 .LabelPaddingLeftKor{
-	padding-left:90.5%
+	padding-left:89.5%
 }
 .title_padding{
 	padding-top:15%;
@@ -136,8 +136,7 @@
 }
 
 .mapIconStyle{
-	height:3%;
-	width:3%;
+	width:28px;
 	padding-right:1%;
 }
 
