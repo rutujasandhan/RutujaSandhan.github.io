@@ -29,11 +29,11 @@
 	float:right;
 }
 
-
-
-.LabelPaddingRightKor{
-	margin-right:10%;
+.paddingRightKor{
+	padding-right:10%;
 }
+
+
 .title_padding{
 	padding-top:15%;
 }
