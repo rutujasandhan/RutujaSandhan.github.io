@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="ISO-8859-1">
 <title>Single page Portfolio</title>
 
 	<!-- CSS file link -->
@@ -10,9 +10,6 @@
 	<!-- Latest compiled CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	
-	<!-- Flag icons -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
-
 	<!-- font link  -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,7 +31,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body id = "body1" class="fontFamily">
+<body class="fontFamily">
 
     <!-- Navigation Bar -->
 	<div id="home" class="introImage">
@@ -66,15 +63,10 @@
 	
 	    <!-- Home Page -->
 		<div id="title" class="container text-center hearderset">
-			<a class="LabelPaddingLeftKor" href="#" id="index-kr" onclick="document.location=this.id+'.html';return false;" >
-			    <img src="images/south-korea.png" alt="kr" class="mapIconStyle" /><label class="mapLabel">한국어</label><br>
-			</a>
-			<a class="LabelPaddingLeft" href="#" id="index" onclick="document.location=this.id+'.html';return false;" >
-			     <img src="images/united-states.png" alt="us" class="mapIconStyle" /><label class="mapLabel">English</label>
-			</a>
-		
-			<h1 id="home_title1" class="white_text_color title_padding hometitle"></h1>
-			<h2 id="home_title2" class="white_text_color hometitle"></h2>
+			<div id="h_title1"><h1 id="home_title1" class="white_text_color h_paddingtop hometitle"> </h1></div>
+			<div id="h_title2"><h2 id="home_title2" class="white_text_color h_paddingleft hometitle"></h2></div>
+			<div id="h_title1_updated" class="invisible"><h1 class="white_text_color divPadding hometitle"> Rutuja Sandhan</h1></div>
+			<div id="h_title2_updated" class="invisible"><h2 class="white_text_color w3-animate-right hometitle">Software Developer</h2></div>
 		</div>
 	</div>
 	
@@ -165,15 +157,8 @@
 								<h4 class="item-title paddingTopTitle">Professional</h4>
 								<ul class="list-unstyled resume-skills-list">
 									<li class="mb-2">Effective communication</li>
-									<li class="mb-2">Team Collaboration<li>
-									<li>Time management</li>
-								</ul>
-							</div>
-							<div class="item">
-								<h4 class="item-title paddingTopTitle">Language</h4>
-								<ul class="list-unstyled resume-skills-list">
-									<li class="mb-2">English - Full Proficient </li>
-									<li class="mb-2">Korean - Basic (TOPIK Level 1) <li>
+									<li class="mb-2">Team player<li>
+									<li>Good time management</li>
 								</ul>
 							</div>
 							</section>
@@ -192,8 +177,8 @@
 		<h2 class="text-center"> My Projects</h2>
 		<h5 class="text-center">(Projects from April 2019 onwards)</h5>
 		<ul class="paddingTop">
-		  <li>Data is retrieved from SQL server, processed according to the requirement and visualized using graphs. </li>
-		  <li>Projects are uploaded on http://www.solarworks.co.kr/, it can be accessed only by the clients using solution.
+		  <li>Data is retrived from SQL server, processed according to the requirement and visualized using graphs. </li>
+		  <li>Site can accessed only by the clients using solution with user id and password.
 		</ul>
 		
 		<!-- Project Videos -->
@@ -371,7 +356,7 @@
 	
 	<!-- Home page header effect -->
 	<script>
-
+		$("#h_title1, #h_title2").removeClass("invisible");
 		var i = 0 , j = 0;
 		var header1 = 'Rutuja Sandhan';
 		var header2 = 'Software Developer';
@@ -397,7 +382,14 @@
 			  }
 		}
 	
-		
+		setTimeout(function(){ 
+			document.getElementById('home_title2').innerHTML = '';
+			document.getElementById('home_title1').innerHTML = '';
+	
+			$("#h_title1_updated,#h_title2_updated").removeClass("invisible");
+	   		$("#h_title1_updated").addClass("w3-animate-left");
+	   		$("#h_title2_updated").addClass("w3-animate-right");
+	   	 }, 3000);
 	</script>
 	
 </body>
