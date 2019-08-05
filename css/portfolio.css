@@ -25,11 +25,14 @@
 }
 
 .LabelPaddingLeft{
-	padding-left:87%
+	/*padding-left:87%*/
+	float:right;
 }
 
-.LabelPaddingLeftKor{
-	padding-left:86.5%
+
+
+.LabelPaddingRightKor{
+	margin-right:10%;
 }
 .title_padding{
 	padding-top:15%;
@@ -138,6 +141,7 @@
 .mapIconStyle{
 	width:28px;
 	padding-right:1%;
+	
 }
 
 /*Contact form */
